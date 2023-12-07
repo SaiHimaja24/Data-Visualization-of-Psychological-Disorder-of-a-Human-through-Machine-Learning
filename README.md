@@ -44,6 +44,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/SaiHimaja24/Data-Visualization-of-Psychological-Disorder-of-a-Human-through-Machine-Learning.git
 2. navigate to second notebook.ipynb
+3. run the cells
 
 #Technologies Used
 
