@@ -12,7 +12,6 @@ Welcome to the "Data Visualization of Psychological Disorders through Machine Le
 - [Results](#results)
 - [Technologies Used](#technologies-used)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
 
 ## Introduction
 
