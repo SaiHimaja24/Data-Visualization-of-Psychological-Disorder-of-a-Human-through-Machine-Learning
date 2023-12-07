@@ -1,59 +1,77 @@
 # Data Visualization of Psychological Disorders through Machine Learning
 
-This project utilizes various machine learning algorithms, including regression, clustering, SVM, Stochastic Gradient Descent, confusion matrix, one-hot encoder, and soft encoder, to analyze and visualize psychological disorders in humans. The dataset is sourced from the World Health Organization (WHO) and covers a range of factors such as health reports, sleep habits, alcohol consumption, and personal and professional details.
+Welcome to the "Data Visualization of Psychological Disorders through Machine Learning" project. This project aims to analyze and visualize human behavior based on health reports, sleep habits, alcohol consumption, and personal and professional life factors. The dataset is sourced from the CDC National Health and Examination Survey.
 
-## Overview
+## Table of Contents
 
-The goal of this project is to understand and visualize human behavior based on a comprehensive dataset. The data encompasses various aspects of individuals' lives, including health, sleep patterns, alcohol consumption, marital status, gender, and the presence of heart or brain diseases. Through machine learning algorithms, we aim to identify patterns and relationships in the data to determine the most frequent causes of suicide.
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Machine Learning Algorithms](#machine-learning-algorithms)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Results](#results)
+- [Technologies Used](#technologies-used)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-## Key Features
+## Introduction
 
-- **Regression Analysis:** Predictive modeling to understand the relationships between different variables.
-- **Clustering:** Grouping similar individuals based on behavioral patterns.
-- **SVM (Support Vector Machines):** Classifying individuals into categories based on their characteristics.
-- **Stochastic Gradient Descent:** Optimizing machine learning models for better accuracy.
-- **Confusion Matrix:** Evaluating the performance of classification models.
-- **One-Hot Encoder:** Encoding categorical variables for machine learning models.
-- **Soft Encoder:** Utilizing encoding techniques for improved model performance.
+The project focuses on understanding and predicting psychological disorders by utilizing machine learning algorithms. By combining data from various sources, including health reports, sleep habits, and personal/professional life details, the goal is to determine the most frequent causes of suicide.
 
-## Workflow
+## Dataset
 
-1. **Data Collection:**
-   - The dataset is obtained from WHO, covering a range of factors influencing human behavior.
+The dataset used in this project is obtained from the CDC National Health and Examination Survey. It includes the following CSV files:
+- `xtrain.csv`: Training data features
+- `ytrain.csv`: Training data labels
+- `xtest.csv`: Testing data features
+- `ytest.csv`: Testing data labels
+- `fulldata.csv`: Comprehensive dataset combining training and testing data
 
-2. **Data Preprocessing:**
-   - Cleaning and organizing the data for machine learning tasks.
-   - Handling missing values, encoding categorical variables, and normalizing data.
+## Machine Learning Algorithms
 
-3. **Training and Testing:**
-   - Applying various machine learning algorithms to train and test the data.
-   - Evaluating model performance using metrics like accuracy, precision, and recall.
+The following machine learning algorithms are employed in this project:
+- Regression
+- Clustering
+- Support Vector Machine (SVM)
+- Stochastic Gradient Descent
+- Confusion Matrix
+- One-Hot Encoder
+- Soft Encoder
 
-4. **Combining Results:**
-   - Combining results from different models to obtain a comprehensive understanding.
+## Project Structure
 
-5. **Final Analysis:**
-   - Performing additional machine learning algorithms on combined results to determine the most frequent cause of suicide.
+The project is organized as follows:
+- `src/`: Contains the source code for machine learning algorithms and data analysis.
+- `data/`: Stores the dataset files (`xtrain.csv`, `ytrain.csv`, `xtest.csv`, `ytest.csv`, `fulldata.csv`).
+- `results/`: Holds the results obtained from different modes and the final combined result.
 
-## Getting Started
-
-To run this project locally, follow these steps:
+## Usage
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/SaiHimaja24/Data-Visualization-of-Psychological-Disorder-of-a-Human-through-Machine-Learning.git
-2. navigate to second notebook.ipynb
-3. run the cells
+Navigate to the project folder:
 
-#Technologies Used
+'''bash
+Copy code
+cd Data-Visualization-of-Psychological-Disorder-of-a-Human-through-Machine-Learning
 
-This project is implemented using the following technologies:
+Run the machine learning algorithms and analysis scripts.
 
-- **Python:** The primary programming language for developing the machine learning and data analysis components.
+Results
+The results are stored in the results/ directory. After combining all the results, the final outcome, i.e., the most frequent cause of suicide, is displayed.
 
-- **Machine Learning Libraries:**
-  - [scikit-learn](https://scikit-learn.org/): A comprehensive library for machine learning tasks, including regression, clustering, and classification.
-  - [TensorFlow](https://www.tensorflow.org/): An open-source machine learning framework for building and training deep learning models.
+Technologies Used
+The project is developed using the following technologies:
 
-These technologies are instrumental in processing, analyzing, and deriving insights from the dataset, contributing to the successful implementation of various machine learning algorithms in the project.
+Python
+Machine Learning Libraries (Scikit-learn, TensorFlow, etc.)
+Pandas
+NumPy
+Matplotlib
+Jupyter Notebooks
+
+Acknowledgments
+
+The dataset is sourced from the CDC National Health and Examination Survey
